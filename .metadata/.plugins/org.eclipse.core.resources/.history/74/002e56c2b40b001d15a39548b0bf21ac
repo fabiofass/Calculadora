@@ -2,12 +2,15 @@ package com.calculadora;
 
 import java.util.Scanner;
 
+import com.robo.robo;
+
 public class calculadora {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-     int a, b, result;
-      
+		robo resposta = new robo();
+     int a, b;
+     
      System.out.println("Digite o Primeiro Número");
      a = scanner.nextInt();
      System.out.println("Digite o segundo Número");
@@ -16,19 +19,14 @@ public class calculadora {
      int subtracao = subtracao(a,b);
      int multiplicacao = multiplicacao(a,b);
      float divisao = divisao(a,b);
-     
      System.out.println("Soma =  "  +   soma);
      System.out.println("Subtraçao =  "  +   subtracao);
      System.out.println("Multiplicação =  "  +   multiplicacao);
      System.out.println("Divisão =  " +   divisao);
-     System.out.println("Resultado foi exibido?? DIGITE 1 SIM OU 2 NÃO");
-     result = scanner.nextInt();
-     if(result == 1) {System.out.println("Ok");}
-     if(result == 2) {System.out.println("Deu merda!!");}
-     
-     
-
-     
+     System.out.println("Tudo certo com o resultado??");
+     if {
+    	 
+     }
 	}
 	public static int soma(int a, int b) {
 		return a + b;

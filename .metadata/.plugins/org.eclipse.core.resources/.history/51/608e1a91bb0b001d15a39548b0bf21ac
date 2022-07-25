@@ -24,7 +24,6 @@ public class calculadora {
      System.out.println("Resultado foi exibido?? DIGITE 1 SIM OU 2 NÃO");
      result = scanner.nextInt();
      if(result == 1) {System.out.println("Ok");}
-     if(result == 2) {System.out.println("Deu merda!!");}
      
      
 

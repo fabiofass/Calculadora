@@ -6,8 +6,8 @@ public class calculadora {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-     int a, b, result;
-      
+     int a, b;
+     String result;
      System.out.println("Digite o Primeiro Número");
      a = scanner.nextInt();
      System.out.println("Digite o segundo Número");
@@ -21,10 +21,8 @@ public class calculadora {
      System.out.println("Subtraçao =  "  +   subtracao);
      System.out.println("Multiplicação =  "  +   multiplicacao);
      System.out.println("Divisão =  " +   divisao);
-     System.out.println("Resultado foi exibido?? DIGITE 1 SIM OU 2 NÃO");
-     result = scanner.nextInt();
-     if(result == 1) {System.out.println("Ok");}
-     if(result == 2) {System.out.println("Deu merda!!");}
+     System.out.println("Resultado Foi Exibido Corretamente??");
+     result = scanner.next();
      
      
 
