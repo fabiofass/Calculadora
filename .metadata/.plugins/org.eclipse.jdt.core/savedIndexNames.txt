@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\fabiofass\Documents\novo treinamento\.metadata\.plugins\org.eclipse.jdt.core
+1650449417.index
+1865797976.index
+294094882.index
